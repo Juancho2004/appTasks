@@ -1,0 +1,5 @@
+<section *ngIf="!showlist"  class="main">
+  <ul class="todo-list">
+    <app-task *ngFor="let task of taksList" [task]="task"></app-task>
+  </ul>
+</section>
